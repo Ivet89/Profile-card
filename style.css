@@ -1,27 +1,23 @@
 body {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: "Kumbh Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
     margin: auto;
     background-color: hsl(185, 75%, 39%);
     color: hsl(229, 23%, 23%);
-    background-image:
-        url(images/bg-pattern-top.svg),
+    background-image: url(images/bg-pattern-top.svg),
         url(images/bg-pattern-bottom.svg);
-    background-position:
-        bottom 30rem right 40rem,
-         top 30rem  left 40rem;
+    background-position: bottom 30rem right 40rem, top 30rem left 40rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: inherit;
 }
 
-
 .card {
     width: 28rem;
     height: 35%;
-    margin:  12rem auto;
+    margin: 12rem auto;
     display: block;
     border: none;
     border-top-left-radius: 1rem;
@@ -33,7 +29,6 @@ body {
 .card-img-top {
     border-top-left-radius: calc(1rem - 1px);
     border-top-right-radius: calc(1rem - 1px);
-
 }
 
 .card-img {
@@ -43,26 +38,28 @@ body {
     border-radius: 100%;
     border: 5px solid #ffffff;
 }
+
 .card-title {
     font-weight: 700;
 }
+
 span {
     padding-left: 10px;
 }
 
 .card-group {
-  padding: 0;
-  flex-flow: row-reverse;
+    padding: 0;
+    flex-flow: row-reverse;
 }
 
 span,
 .card-text {
-  font-weight: 400;
-  color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
 }
 
 .card-text {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 /* Footer */
@@ -71,6 +68,7 @@ span,
     font-weight: 400;
     text-align: center;
 }
+
 .attribution a {
     color: hsl(229, 23%, 23%);
 }
